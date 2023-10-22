@@ -1,0 +1,22 @@
+
+class parent{
+
+	parent(){
+	
+		System.out.println("in parent contrator ");
+	
+	}
+
+}
+
+class child extends parent{
+
+	child(){
+	System.out.println("child constructor");
+	}
+
+}
+void main(){
+
+	child obj = new child();
+}
