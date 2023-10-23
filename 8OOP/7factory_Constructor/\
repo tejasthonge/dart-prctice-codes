@@ -1,0 +1,21 @@
+
+
+class Demo{
+	Demo(){
+	print("in constructor ");
+	}
+	
+	static Demo obj =new Demo();
+	
+	
+	 static Demo fun(){
+
+	return obj;
+	}
+
+}
+void main(){
+
+	Demo.fun();
+
+}
