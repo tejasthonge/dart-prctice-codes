@@ -25,7 +25,7 @@ void main(){
 
 
 	print("enter the no upto sum you want");
-	num n = num.parse(stdin.readLineSync()!);
+	num n = int.parse(stdin.readLineSync()!);
 
 	num sum =(n*(n+1))/2;
 
