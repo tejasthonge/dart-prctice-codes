@@ -1,4 +1,4 @@
-//class varible & Instance variable
+// Instance variable
 
 class company{
 
@@ -7,7 +7,7 @@ class company{
 	String comName = "google";
 	String loc = "pune";
 	
-	//instance method or function
+	//instance method 
 	void info(){
 
 	print(countEmp);

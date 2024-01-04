@@ -27,6 +27,6 @@ void main(){
 	Demo obj1 = new Demo();
 	
 	print(Demo.z);
-	print(Demo.x);
+	print(Demo.x);  //instance varaible can be accassed by using only object not using class name
 
 }
